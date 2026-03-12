@@ -32,6 +32,20 @@ Stats
   Int
   Chrisma
 
+
+Race
+  Human
+  Dwarf
+  Elf
+  rockmonster
+  ...
+
+Class
+  Warrior
+  Mage
+  Rouge
+  .... 
+
 Extra buffs
   water breathing
   fire resistance
