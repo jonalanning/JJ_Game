@@ -1,0 +1,15 @@
+Boxes will have a % chance to upgrade.  
+
+#% chances
+box_options = [{type:bronze, chances:50000}, {type:silver, chances:100000}] ...
+
+
+Function box_upgrade(box_options):
+  for box, index in box_options:
+    chance = random (1 - box.chances)
+    if chance != 1 or index = len(box_options-1):
+      return box.type
+
+
+      
+value = box_upgrade(box_options)
